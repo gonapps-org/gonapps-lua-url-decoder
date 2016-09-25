@@ -11,7 +11,8 @@ $ sudo luarocks install gonapps-url-decoder
 **example code**
 ```lua
 local urlDecoder = require "gonapps.url.decoder"
-urlDecoder.rawDecode(url)
+print(urlDecoder.rawDecode(url))
+print(urlDecoder.decode(url))
 ```
 ## License
 LGPLv3
