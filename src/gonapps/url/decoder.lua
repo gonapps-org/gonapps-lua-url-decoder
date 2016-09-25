@@ -6,4 +6,8 @@ function _M.rawDecode(url)
     end)
 end
 
+function _M.decode(url)
+    return string.gsub(_M.rawDecode(url), "+", " ")
+end
+
 return _M
