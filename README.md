@@ -15,4 +15,4 @@ print(urlDecoder.rawDecode(url))
 print(urlDecoder.decode(url))
 ```
 ## License
-LGPLv3
+Mozilla Public License 2.0
